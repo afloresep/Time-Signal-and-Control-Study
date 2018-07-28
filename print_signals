@@ -1,0 +1,26 @@
+#!/bin/bash
+
+python mad_display.py -p --input data/signal1_30_200_1.data data/signal1_30_200_0.data -o signal1_30_200_1.png
+python mad_display.py -p --input data/signal1_30_200_3.data data/signal1_30_200_0.data -o signal1_30_200_3.png
+python mad_display.py -p --input data/signal1_30_200_5.data data/signal1_30_200_0.data -o signal1_30_200_5.png
+python mad_display.py -p --input data/signal1_30_200_7.data data/signal1_30_200_0.data -o signal1_30_200_7.png
+python mad_display.py -p --input data/signal1_30_200_9.data data/signal1_30_200_0.data -o signal1_30_200_9.png
+python mad_display.py -p --input data/signal1_30_200_11.data data/signal1_30_200_0.data -o signal1_30_200_11.png
+python mad_display.py -p --input data/signal1_30_200_13.data data/signal1_30_200_0.data -o signal1_30_200_13.png
+
+python mad_display.py -p --input data/signal2_30_200_1.data data/signal2_30_200_0.data -o signal2_30_200_1.png
+python mad_display.py -p --input data/signal2_30_200_3.data data/signal2_30_200_0.data -o signal2_30_200_3.png
+python mad_display.py -p --input data/signal2_30_200_5.data data/signal2_30_200_0.data -o signal2_30_200_5.png
+python mad_display.py -p --input data/signal2_30_200_7.data data/signal2_30_200_0.data -o signal2_30_200_7.png
+python mad_display.py -p --input data/signal2_30_200_9.data data/signal2_30_200_0.data -o signal2_30_200_9.png
+python mad_display.py -p --input data/signal2_30_200_11.data data/signal2_30_200_0.data -o signal2_30_200_11.png
+python mad_display.py -p --input data/signal2_30_200_13.data data/signal2_30_200_0.data -o signal2_30_200_13.png
+
+python mad_display.py -p --input data/signal3_30_200_1.data data/signal3_30_200_0.data -o signal3_30_200_1.png
+python mad_display.py -p --input data/signal3_30_200_3.data data/signal3_30_200_0.data -o signal3_30_200_3.png
+python mad_display.py -p --input data/signal3_30_200_5.data data/signal3_30_200_0.data -o signal3_30_200_5.png
+python mad_display.py -p --input data/signal3_30_200_7.data data/signal3_30_200_0.data -o signal3_30_200_7.png
+python mad_display.py -p --input data/signal3_30_200_9.data data/signal3_30_200_0.data -o signal3_30_200_9.png
+python mad_display.py -p --input data/signal3_30_200_11.data data/signal3_30_200_0.data -o signal3_30_200_11.png
+python mad_display.py -p --input data/signal3_30_200_13.data data/signal3_30_200_0.data -o signal3_30_200_13.png
+

@@ -1,0 +1,84 @@
+#!/bin/bash
+
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_0.data --noise_ref 1.0
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_1.data --noise_ref 1.0 --decibel 1.0
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_3.data --noise_ref 1.0 --decibel 3.0
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_5.data --noise_ref 1.0 --decibel 5.0
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_7.data --noise_ref 1.0 --decibel 7.0
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_9.data --noise_ref 1.0 --decibel 9.0
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_11.data --noise_ref 1.0 --decibel 11.0
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_13.data --noise_ref 1.0 --decibel 13.0
+
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_0.vdata --noise_ref 1.0 --velocity
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_1.vdata --noise_ref 1.0 --decibel 1.0 --velocity
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_3.vdata --noise_ref 1.0 --decibel 3.0 --velocity
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_5.vdata --noise_ref 1.0 --decibel 5.0 --velocity
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_7.vdata --noise_ref 1.0 --decibel 7.0 --velocity
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_9.vdata --noise_ref 1.0 --decibel 9.0 --velocity
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_11.vdata --noise_ref 1.0 --decibel 11.0 --velocity
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_13.vdata --noise_ref 1.0 --decibel 13.0 --velocity
+
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_0.adata --noise_ref 1.0 --acceleration
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_1.adata --noise_ref 1.0 --decibel 1.0 --acceleration
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_3.adata --noise_ref 1.0 --decibel 3.0 --acceleration
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_5.adata --noise_ref 1.0 --decibel 5.0 --acceleration
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_7.adata --noise_ref 1.0 --decibel 7.0 --acceleration
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_9.adata --noise_ref 1.0 --decibel 9.0 --acceleration
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_11.adata --noise_ref 1.0 --decibel 11.0 --acceleration
+python mad_signal.py --signal 3 --hz 30.0 --time 200 --out data/signal3_30_200_13.adata --noise_ref 1.0 --decibel 13.0 --acceleration
+
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_0.data --noise_ref 1.0
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_1.data --noise_ref 1.0 --decibel 1.0
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_3.data --noise_ref 1.0 --decibel 3.0
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_5.data --noise_ref 1.0 --decibel 5.0
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_7.data --noise_ref 1.0 --decibel 7.0
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_9.data --noise_ref 1.0 --decibel 9.0
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_11.data --noise_ref 1.0 --decibel 11.0
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_13.data --noise_ref 1.0 --decibel 13.0
+
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_0.vdata --noise_ref 1.0 --velocity
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_1.vdata --noise_ref 1.0 --decibel 1.0 --velocity
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_3.vdata --noise_ref 1.0 --decibel 3.0 --velocity
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_5.vdata --noise_ref 1.0 --decibel 5.0 --velocity
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_7.vdata --noise_ref 1.0 --decibel 7.0 --velocity
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_9.vdata --noise_ref 1.0 --decibel 9.0 --velocity
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_11.vdata --noise_ref 1.0 --decibel 11.0 --velocity
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_13.vdata --noise_ref 1.0 --decibel 13.0 --velocity
+
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_0.adata --noise_ref 1.0 --acceleration
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_1.adata --noise_ref 1.0 --decibel 1.0 --acceleration
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_3.adata --noise_ref 1.0 --decibel 3.0 --acceleration
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_5.adata --noise_ref 1.0 --decibel 5.0 --acceleration
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_7.adata --noise_ref 1.0 --decibel 7.0 --acceleration
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_9.adata --noise_ref 1.0 --decibel 9.0 --acceleration
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_11.adata --noise_ref 1.0 --decibel 11.0 --acceleration
+python mad_signal.py --signal 2 --hz 30.0 --time 200 --out data/signal2_30_200_13.adata --noise_ref 1.0 --decibel 13.0 --acceleration
+
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_0.data --noise_ref 1.0
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_1.data --noise_ref 1.0 --decibel 1.0
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_3.data --noise_ref 1.0 --decibel 3.0
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_5.data --noise_ref 1.0 --decibel 5.0
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_7.data --noise_ref 1.0 --decibel 7.0
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_9.data --noise_ref 1.0 --decibel 9.0
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_11.data --noise_ref 1.0 --decibel 11.0
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_13.data --noise_ref 1.0 --decibel 13.0
+
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_0.vdata --noise_ref 1.0 --velocity
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_1.vdata --noise_ref 1.0 --decibel 1.0 --velocity
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_3.vdata --noise_ref 1.0 --decibel 3.0 --velocity
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_5.vdata --noise_ref 1.0 --decibel 5.0 --velocity
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_7.vdata --noise_ref 1.0 --decibel 7.0 --velocity
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_9.vdata --noise_ref 1.0 --decibel 9.0 --velocity
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_11.vdata --noise_ref 1.0 --decibel 11.0 --velocity
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_13.vdata --noise_ref 1.0 --decibel 13.0 --velocity
+
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_0.adata --noise_ref 1.0 --acceleration
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_1.adata --noise_ref 1.0 --decibel 1.0 --acceleration
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_3.adata --noise_ref 1.0 --decibel 3.0 --acceleration
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_5.adata --noise_ref 1.0 --decibel 5.0 --acceleration
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_7.adata --noise_ref 1.0 --decibel 7.0 --acceleration
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_9.adata --noise_ref 1.0 --decibel 9.0 --acceleration
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_11.adata --noise_ref 1.0 --decibel 11.0 --acceleration
+python mad_signal.py --signal 1 --hz 30.0 --time 200 --out data/signal1_30_200_13.adata --noise_ref 1.0 --decibel 13.0 --acceleration
+
+
