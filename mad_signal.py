@@ -157,7 +157,7 @@ def main():
     parser.add_argument("--signal", help="signal function to use [1,2]", type=int, default=1)
     parser.add_argument("--display", help="display signal", action='store_true')
     parser.add_argument("--velocity", help="compute velocity", action='store_true')
-    parser.add_argument("--accelerzaation", help="compute acceleration", action='store_true')
+    parser.add_argument("--acceleration", help="compute acceleration", action='store_true')
 
     
     args = parser.parse_args()
